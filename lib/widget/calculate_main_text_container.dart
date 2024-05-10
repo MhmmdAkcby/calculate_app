@@ -19,9 +19,10 @@ class _CalculateMainContainerTextShowState extends State<CalculateMainContainerT
       child: Text(
         textAlign: TextAlign.right,
         text,
-        style: Theme.of(context).textTheme.displayLarge?.copyWith(
-              fontSize: ProjectSize().textFontSizeInContainer,
-            ),
+        style: Theme.of(context)
+            .textTheme
+            .displayLarge
+            ?.copyWith(fontSize: ProjectSize().textFontSizeInContainer, fontWeight: FontWeight.w200),
       ),
     );
   }

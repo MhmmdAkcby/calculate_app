@@ -1,3 +1,4 @@
+import 'package:calculator_app/widget/calculate_button/calculate_button_widget.dart';
 import 'package:calculator_app/widget/calculate_main_text_container.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,7 @@ class _HomeViewState extends State<HomeView> {
       body: const Column(
         children: [
           CalculateMainContainerTextShow(),
+          CalculateButtonWidget(),
         ],
       ),
     );
