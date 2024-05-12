@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 class ProjectSize {
-  final double containerFontSize = 120;
+  final double containerFontSize = 40;
+  final double containerFontSize2 = 80;
   final double borderRadius = 25;
   final int flexSize = 2;
+  final double sizedBoxHeight = 50;
 }
 
 /// Project pading
@@ -13,5 +15,5 @@ class ProjectPadding {
 
 /// Projec margin
 class ProjectMargin {
-  static const marginSymmetricContainer = EdgeInsets.symmetric(vertical: 50, horizontal: 30);
+  static const marginSymmetricContainer = EdgeInsets.symmetric(horizontal: 16);
 }
